@@ -16,3 +16,11 @@ result_map = ZipcodeToMap()
 # '515411' is Pincode of a city.
 
 result_map.zipcode_to_map('in','515411')
+
+# Example to copy
+
+from zipcode_to_map.zipcode_to_map import ZipcodeToMap
+
+result_map = ZipcodeToMap()
+
+result_map.zipcode_to_map('in','515411')
