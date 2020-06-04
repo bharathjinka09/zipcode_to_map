@@ -12,5 +12,7 @@ from zipcode_to_map.zipcode_to_map import ZipcodeToMap
 result_map = ZipcodeToMap()
 
 # Provides the map as result
+# Here 'in' is Country Code as India.
+# '515411' is Pincode of a city.
 
 result_map.zipcode_to_map('in','515411')
