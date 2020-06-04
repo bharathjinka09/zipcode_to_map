@@ -1,6 +1,6 @@
 # Import the class
 
-from zipcode_to_map import ZipcodeToMap
+from zipcode_to_map.zipcode_to_map import ZipcodeToMap
 
 # Instantiate the object
 
