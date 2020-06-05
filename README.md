@@ -32,13 +32,19 @@ result_map.zipcode_to_map('in','515411')
 
 # Example to copy
 
+```
 from zipcode_to_map.zipcode_to_map import ZipcodeToMap
 
 result_map = ZipcodeToMap()
 
-result_map.zipcode_to_map('in','515411')
+try:
+	result_map.zipcode_to_map('in','515411')
+except Exception as e:
+	print("Not a valid pincode. Try with a valid one.")
+```
 
 # Generate multiple maps at once
+
 ```
 from zipcode_to_map.zipcode_to_map import ZipcodeToMap
 
