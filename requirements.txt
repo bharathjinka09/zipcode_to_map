@@ -5,7 +5,7 @@ folium==0.11.0
 idna==2.9
 Jinja2==2.11.3
 MarkupSafe==1.1.1
-numpy==1.18.5
+numpy==1.22.0
 pandas==1.0.4
 pgeocode==0.2.1
 python-dateutil==2.8.1
